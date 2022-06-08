@@ -83,7 +83,7 @@ header nav ul .log a{
     flex-direction: column;
     position: relative;
 }
-.race a{
+.race {
     position: absolute;
     top: 35%;
     right: 90%;
@@ -95,7 +95,7 @@ header nav ul .log a{
     cursor: pointer;
     text-decoration: none;
 }
- .off-road a{
+ .off-road {
     position: absolute;
     top: 35%;
     right: 40%;
@@ -106,7 +106,7 @@ header nav ul .log a{
     font-weight: bolder;
     text-decoration: none;
 }
-.tour a{
+.tour {
     position: absolute;
     top: 35%;
     right: 0 ;
@@ -117,7 +117,7 @@ header nav ul .log a{
     font-weight: bolder;
     text-decoration: none;
 }
-.street a{
+.street {
     position: absolute;
     top: 35%;
   /*  right: -60%;*/
