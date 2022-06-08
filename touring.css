@@ -149,7 +149,7 @@ header nav ul .log a{
     flex-wrap: wrap; width: 80%;
     border-left: 1px solid black;
 }
-/*.cart{
+.cart{
     width: 18rem;
     height: 23rem;
     background: white;
