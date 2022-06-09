@@ -3,16 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    width: 100%;
-    height: 100vh;
-}
+
 header{
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid white;
-    box-shadow: 2px  2px 4px black;
+    border-bottom: 1px solid black;
+  /*  box-shadow: 2px  2px 4px black;*/
     padding: 20px;
 }
 h1{
@@ -51,7 +49,7 @@ nav ul li i{
     display: flex;
     margin-top: 15px;
     margin-left: 5px;
-    flex-direction: row;
+   flex-direction: row;
     position: relative;
 }
 .content img{
@@ -60,7 +58,7 @@ nav ul li i{
    margin-left: 60px;
    opacity: .7;
 } 
-.racing{
+.rac-img .racing{
     position: absolute;
     top:0%;
     right:83%;
@@ -72,7 +70,7 @@ nav ul li i{
     cursor: pointer;
     text-decoration: none;
 }
-.off-road{
+.off-img .off-road{
     position: absolute;
     top:0%;
     right:58%;
@@ -84,7 +82,7 @@ nav ul li i{
     cursor: pointer;
     text-decoration: none;
 }
-.touring{
+.tour-img .touring{
     position: absolute;
     top:0%;
     right:35%;
@@ -96,7 +94,7 @@ nav ul li i{
     cursor: pointer;
     text-decoration: none;
 }
-.street{
+.street-img .street{
     position: absolute;
     top:0%;
     right:10%;
@@ -160,7 +158,7 @@ footer{
     padding: 20px 18%;
     background-color:pink;
     border-top: rgb(219, 9, 114);
-    box-shadow: 2px 2px 4px rgb(22, 16, 16);
+   /* box-shadow: 2px 2px 4px rgb(22, 16, 16);*/
 }
 footer .foot{
   text-align: center;
