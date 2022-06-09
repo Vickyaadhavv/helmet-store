@@ -1,12 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-
 header{
     display: flex;
-    width: 100%;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid black;
@@ -45,23 +42,24 @@ nav ul li{
 nav ul li i{
     color: black;
 }
-.content{
-    display: flex;
+    .content{
+     display: flex;
     margin-top: 15px;
     margin-left: 5px;
-   flex-direction: row;
+    width: 90%;
     position: relative;
 }
-.content img{
+.content a img{
     border-radius: 3px;
    padding: auto;
-   margin-left: 60px;
+   margin-left: 30px;
    opacity: .7;
 } 
 .rac-img .racing{
     position: absolute;
-    top:0%;
+    top:8%;
     right:83%;
+    widows: 100%;
     text-align: center;
     margin-top: 70px;
     color:white;  
@@ -72,8 +70,9 @@ nav ul li i{
 }
 .off-img .off-road{
     position: absolute;
-    top:0%;
-    right:58%;
+    top:8%;
+    right:55%;
+    widows: 100%;
     text-align: center;
     margin-top: 70px;
     color: white;  
@@ -84,8 +83,9 @@ nav ul li i{
 }
 .tour-img .touring{
     position: absolute;
-    top:0%;
-    right:35%;
+    top:8%;
+    right:27%;
+    widows: 100%;
     text-align: center;
     margin-top: 70px;
     color: white;  
@@ -96,8 +96,9 @@ nav ul li i{
 }
 .street-img .street{
     position: absolute;
-    top:0%;
-    right:10%;
+    top:8%;
+    right:2%;
+    widows: 100%;
     text-align: center;
     margin-top: 70px;
     color: white;  
@@ -107,19 +108,23 @@ nav ul li i{
     text-decoration: none;
 }
 .banner{
-    margin-top: 15px;
+    margin: 15px auto;
     position: relative;
+    width: 90%;
+    
 }
 .banner img{
     border-radius: 3px;
     margin-left: 2%;
-    object-fit: contain;
+    
+    width: 100%;
 }
 .head{
     position:absolute;
     top: 45%;
     left: 15%;
-    bottom: o;
+    widows: 100%;
+    text-align: center;
     font-weight: bolder;
     color: white;
     text-shadow: 2px 2px 4px #000000;
@@ -132,6 +137,7 @@ nav ul li i{
     position: absolute;
     top: 56%;
 left: 50%;
+widows: 100%;
 background: rgb(212, 6, 109);
 padding: 5px;
 font-weight: bold;
