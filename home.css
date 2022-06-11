@@ -47,7 +47,7 @@ nav ul li i{
     margin-top: 15px;
     margin-left: 5px;
     width: 90%;
-    position: relative;
+   
 }
 .content a img{
     border-radius: 3px;
@@ -55,10 +55,12 @@ nav ul li i{
    margin-left: 30px;
    opacity: .7;
 } 
-.rac-img .racing{
+.rac-img {
+    position: relative;
+}.racing{
     position: absolute;
     top:8%;
-    right:83%;
+    right:42%;
     widows: 100%;
     text-align: center;
     margin-top: 70px;
@@ -68,10 +70,12 @@ nav ul li i{
     cursor: pointer;
     text-decoration: none;
 }
-.off-img .off-road{
+.off-img{
+    position: relative;
+} .off-road{
     position: absolute;
     top:8%;
-    right:55%;
+    right:38%;
     widows: 100%;
     text-align: center;
     margin-top: 70px;
@@ -81,10 +85,12 @@ nav ul li i{
     cursor: pointer;
     text-decoration: none;
 }
-.tour-img .touring{
+.tour-img{
+    position: relative;
+} .touring{
     position: absolute;
     top:8%;
-    right:27%;
+    right:35%;
     widows: 100%;
     text-align: center;
     margin-top: 70px;
@@ -94,10 +100,12 @@ nav ul li i{
     cursor: pointer;
     text-decoration: none;
 }
-.street-img .street{
+.street-img {
+    position: relative;
+}.street{
     position: absolute;
     top:8%;
-    right:2%;
+    right:35%;
     widows: 100%;
     text-align: center;
     margin-top: 70px;
@@ -109,14 +117,16 @@ nav ul li i{
 }
 .banner{
     margin: 15px auto;
-    position: relative;
+   
     width: 90%;
     
+}
+.banner-name{
+    position: relative;
 }
 .banner img{
     border-radius: 3px;
     margin-left: 2%;
-    
     width: 100%;
 }
 .head{
